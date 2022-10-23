@@ -124,7 +124,7 @@ TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel.TextScaled = true
 TextLabel.TextSize = 14.000
 TextLabel.TextWrapped = true
-TextLabel.BorderColor3 = Color3.fromRGB(230, 66, 255)
+TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
 
 TextLabel1.Parent = Frame2
 TextLabel1.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
