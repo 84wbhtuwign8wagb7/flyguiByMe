@@ -50,7 +50,7 @@ closeopen2.Position = UDim2.new(0.937, 0, 0.04, 0)
 closeopen2.Size = UDim2.new(0, 25, 0, 25)
 closeopen2.Font = Enum.Font.GothamBlack
 closeopen2.Text = "x"
-closeopen2.TextColor3 = Color3.fromRGB(255, 255, 255)
+closeopen2.TextColor3 = Color3.fromRGB(255, 0, 0)
 closeopen2.TextSize = 23.000
 closeopen2.BorderColor3 = Color3.fromRGB(0, 0, 0)
 closeopen2.MouseButton1Click:Connect(function()
