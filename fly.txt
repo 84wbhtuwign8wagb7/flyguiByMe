@@ -1,8 +1,4 @@
--- Gui to Lua
-
--- Version: CrackedByFerestz
-
-
+-- made by KnightScripts
 -- Instances:
 
 local closeopen = Instance.new("TextButton")
@@ -123,7 +119,7 @@ TextLabel.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel.Position = UDim2.new(0.53, 0, 0.10, 0)
 TextLabel.Size = UDim2.new(0, 180, 0, 28)
 TextLabel.Font = Enum.Font.GothamBlack
-TextLabel.Text = "FerestZ W?"
+TextLabel.Text = "KnightScripts"
 TextLabel.TextColor3 = Color3.fromRGB(217, 28, 235)
 TextLabel.TextScaled = true
 TextLabel.TextSize = 14.000
