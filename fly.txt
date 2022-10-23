@@ -33,7 +33,7 @@ closeopen.Font = Enum.Font.GothamBlack
 closeopen.Text = "-"
 closeopen.TextColor3 = Color3.fromRGB(255, 255, 255)
 closeopen.TextSize = 23.000
-closeopen.BorderColor3 = Color3.fromRGB(230, 66, 255)
+closeopen.BorderColor3 = Color3.fromRGB(0, 0, 0)
 closeopen.MouseButton1Click:Connect(function()
 	if 	Frame.Visible == false then 
 		Frame.Visible = true
@@ -52,7 +52,7 @@ closeopen2.Font = Enum.Font.GothamBlack
 closeopen2.Text = "x"
 closeopen2.TextColor3 = Color3.fromRGB(255, 255, 255)
 closeopen2.TextSize = 23.000
-closeopen2.BorderColor3 = Color3.fromRGB(230, 66, 255)
+closeopen2.BorderColor3 = Color3.fromRGB(0, 0, 0)
 closeopen2.MouseButton1Click:Connect(function()
 	if 	Frame2.Visible == false then 
 		Frame2.Visible = true
@@ -136,7 +136,7 @@ TextLabel1.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel1.TextScaled = true
 TextLabel1.TextSize = 14.000
 TextLabel1.TextWrapped = true
-TextLabel1.BorderColor3 = Color3.fromRGB(230, 66, 255)
+TextLabel1.BorderColor3 = Color3.fromRGB(0, 0, 0)
 
 plus.Name = "plus"
 plus.Parent = Frame
