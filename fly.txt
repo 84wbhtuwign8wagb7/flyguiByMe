@@ -20,7 +20,7 @@ local closeopen2 = Instance.new("TextButton")
 Frame2.Name = "Frame2"
 Frame2.Parent = main
 Frame2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-Frame2.BorderColor3 = Color3.fromRGB(217, 28, 235)
+Frame2.BorderColor3 = Color3.fromRGB(230, 66, 255)
 Frame2.Position = UDim2.new(0.12, 0, 0, 0)
 Frame2.Size = UDim2.new(0, 400, 0, 27)
 
@@ -31,9 +31,9 @@ closeopen.Position = UDim2.new(0.8675, 0, 0.03, 0)
 closeopen.Size = UDim2.new(0, 25, 0, 25)
 closeopen.Font = Enum.Font.GothamBlack
 closeopen.Text = "-"
-closeopen.TextColor3 = Color3.fromRGB(217, 28, 235)
+closeopen.TextColor3 = Color3.fromRGB(255, 255, 255)
 closeopen.TextSize = 23.000
-closeopen.BorderColor3 = Color3.fromRGB(217, 28, 235)
+closeopen.BorderColor3 = Color3.fromRGB(230, 66, 255)
 closeopen.MouseButton1Click:Connect(function()
 	if 	Frame.Visible == false then 
 		Frame.Visible = true
@@ -50,9 +50,9 @@ closeopen2.Position = UDim2.new(0.937, 0, 0.04, 0)
 closeopen2.Size = UDim2.new(0, 25, 0, 25)
 closeopen2.Font = Enum.Font.GothamBlack
 closeopen2.Text = "x"
-closeopen2.TextColor3 = Color3.fromRGB(217, 28, 235)
+closeopen2.TextColor3 = Color3.fromRGB(255, 255, 255)
 closeopen2.TextSize = 23.000
-closeopen2.BorderColor3 = Color3.fromRGB(217, 28, 235)
+closeopen2.BorderColor3 = Color3.fromRGB(230, 66, 255)
 closeopen2.MouseButton1Click:Connect(function()
 	if 	Frame2.Visible == false then 
 		Frame2.Visible = true
@@ -69,15 +69,15 @@ main.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 Frame.Name = "Frame"
 Frame.Parent = Frame2
-Frame.BackgroundColor3 = Color3.fromRGB(163, 255, 137)
-Frame.BorderColor3 = Color3.fromRGB(103, 221, 213)
+Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame.BorderColor3 = Color3.fromRGB(230, 66, 255)
 Frame.Position = UDim2.new(0, 0, 1.1, 0)
 Frame.Size = UDim2.new(0, 400, 0, 57)
 
 maing.Name = "maing"
 maing.Parent = Frame
 Frame.BackgroundColor3 = Color3.fromRGB(13, 1, 1)
-Frame.BorderColor3 = Color3.fromRGB(217, 28, 235)
+Frame.BorderColor3 = Color3.fromRGB(230, 66, 255)
 Frame.Size = UDim2.new(0, 400, 0, 80)
 
 
@@ -87,10 +87,10 @@ up.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 up.Size = UDim2.new(0, 88, 0, 28)
 up.Font = Enum.Font.GothamBlack
 up.Text = "UP"
-up.TextColor3 = Color3.fromRGB(217, 28, 235)
+up.TextColor3 = Color3.fromRGB(255, 255, 255)
 up.TextSize = 14.000
 up.Position = UDim2.new(0.02, 0, 0.10, 0)
-up.BorderColor3 = Color3.fromRGB(217, 28, 235)
+up.BorderColor3 = Color3.fromRGB(230, 66, 255)
 
 down.Name = "down"
 down.Parent = Frame
@@ -99,9 +99,9 @@ down.Position = UDim2.new(0.02, 0, 0.55, 0)
 down.Size = UDim2.new(0, 88, 0, 28)
 down.Font = Enum.Font.GothamBlack
 down.Text = "DOWN"
-down.TextColor3 = Color3.fromRGB(217, 28, 235)
+down.TextColor3 = Color3.fromRGB(255, 255, 255)
 down.TextSize = 14.000
-down.BorderColor3 = Color3.fromRGB(217, 28, 235)
+down.BorderColor3 = Color3.fromRGB(230, 66, 255)
 
 onof.Name = "onof"
 onof.Parent = Frame
@@ -110,9 +110,9 @@ onof.Position = UDim2.new(0.76, 0, 0.55, 0)
 onof.Size = UDim2.new(0, 88, 0, 28)
 onof.Font = Enum.Font.GothamBlack
 onof.Text = "fly/unfly"
-onof.TextColor3 = Color3.fromRGB(217, 28, 235)
+onof.TextColor3 = Color3.fromRGB(255, 255, 255)
 onof.TextSize = 14.000
-onof.BorderColor3 = Color3.fromRGB(217, 28, 235)
+onof.BorderColor3 = Color3.fromRGB(230, 66, 255)
 
 TextLabel.Parent = Frame
 TextLabel.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
@@ -120,23 +120,23 @@ TextLabel.Position = UDim2.new(0.53, 0, 0.10, 0)
 TextLabel.Size = UDim2.new(0, 180, 0, 28)
 TextLabel.Font = Enum.Font.GothamBlack
 TextLabel.Text = "KnightScripts"
-TextLabel.TextColor3 = Color3.fromRGB(217, 28, 235)
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel.TextScaled = true
 TextLabel.TextSize = 14.000
 TextLabel.TextWrapped = true
-TextLabel.BorderColor3 = Color3.fromRGB(217, 28, 235)
+TextLabel.BorderColor3 = Color3.fromRGB(230, 66, 255)
 
 TextLabel1.Parent = Frame2
 TextLabel1.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel1.Position = UDim2.new(0.275, 0, 0.1, 0)
 TextLabel1.Size = UDim2.new(0, 180, 0, 20)
 TextLabel1.Font = Enum.Font.GothamBlack
-TextLabel1.Text = "FerestZ Fly GUI"
-TextLabel1.TextColor3 = Color3.fromRGB(217, 28, 235)
+TextLabel1.Text = "KnightScripts Fly GUI"
+TextLabel1.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel1.TextScaled = true
 TextLabel1.TextSize = 14.000
 TextLabel1.TextWrapped = true
-TextLabel1.BorderColor3 = Color3.fromRGB(13, 1, 1)
+TextLabel1.BorderColor3 = Color3.fromRGB(230, 66, 255)
 
 plus.Name = "plus"
 plus.Parent = Frame
@@ -145,11 +145,11 @@ plus.Position = UDim2.new(0.275, 0, 0.10, 0)
 plus.Size = UDim2.new(0, 88, 0, 28)
 plus.Font = Enum.Font.GothamBlack
 plus.Text = "+"
-plus.TextColor3 = Color3.fromRGB(217, 28, 235)
+plus.TextColor3 = Color3.fromRGB(255, 255, 255)
 plus.TextScaled = true
 plus.TextSize = 14.000
 plus.TextWrapped = true
-plus.BorderColor3 = Color3.fromRGB(217, 28, 235)
+plus.BorderColor3 = Color3.fromRGB(230, 66, 255)
 
 speed.Name = "speed"
 speed.Parent = Frame
@@ -158,11 +158,11 @@ speed.Position = UDim2.new(0.53, 0, 0.55, 0)
 speed.Size = UDim2.new(0, 88, 0, 28)
 speed.Font = Enum.Font.GothamBlack
 speed.Text = "1"
-speed.TextColor3 = Color3.fromRGB(217, 28, 235)
+speed.TextColor3 = Color3.fromRGB(255, 255, 255)
 speed.TextScaled = true
 speed.TextSize = 14.000
 speed.TextWrapped = true
-speed.BorderColor3 = Color3.fromRGB(217, 28, 235)
+speed.BorderColor3 = Color3.fromRGB(230, 66, 255)
 
 mine.Name = "mine"
 mine.Parent = Frame
@@ -171,11 +171,11 @@ mine.Position = UDim2.new(0.275, 0, 0.55, 0)
 mine.Size = UDim2.new(0, 88, 0, 28)
 mine.Font = Enum.Font.GothamBlack
 mine.Text = "-"
-mine.TextColor3 = Color3.fromRGB(217, 28, 235)
+mine.TextColor3 = Color3.fromRGB(255, 255, 255)
 mine.TextScaled = true
 mine.TextSize = 14.000
 mine.TextWrapped = true
-mine.BorderColor3 = Color3.fromRGB(217, 28, 235)
+mine.BorderColor3 = Color3.fromRGB(230, 66, 255)
 
 speeds = 1
 
